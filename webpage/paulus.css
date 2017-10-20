@@ -38,6 +38,7 @@ h1 {
 }
 
 IMG.paulus {
+    animation: fadeIn 4s;
     display: block;
     margin-left: auto;
     margin-right: auto 
@@ -58,6 +59,7 @@ body {
 }
 
 footer {
+    animation: fadeIn 4s;
     text-align: right;
     border-top: 1px groove black;
 }
@@ -65,4 +67,18 @@ footer {
 p {
     margin-left: 20px;
     margin-right: 20px;
+}
+
+
+.fade-in {
+    animation: fadeIn 4s;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
